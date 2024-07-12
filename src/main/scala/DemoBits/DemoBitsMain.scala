@@ -5,6 +5,7 @@ import spinal.lib._
 import scala.language.postfixOps
 
 object DemoBitsMain extends App {
-  SpinalConfig(targetDirectory = "rtl/DemoBits"
+  SpinalConfig(
+    targetDirectory = "rtl/DemoBits"
   ).generateVerilog(new DemoBits)
 }

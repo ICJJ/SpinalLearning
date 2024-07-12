@@ -1,6 +1,10 @@
 # Default ignored files
+# idea
 .idea
 .bsp
 target
-rtl
 project
+
+# spinalhdl
+rtl
+simWorkspace

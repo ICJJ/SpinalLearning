@@ -8,7 +8,7 @@ import scala.language.postfixOps
 import spinal.lib.dsptool._
 
 class DemoUintSint extends Component {
-
+  
   /** define */
   val a0 = UInt(10 bits)
   val a1 = SInt(10 bits)
